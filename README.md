@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Carlos Gerardo Herrera Cortina - A00821946
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Carlos Gerardo Herrera Cortina - A00821946. Github Pages: https://carrr105.github.io/act_react_1
 
 ## Available Scripts
 

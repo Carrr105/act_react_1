@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Menu from './componentes/menu/menu.js'; 
 
 class Square extends React.Component {
     render() {
@@ -11,6 +13,7 @@ class Square extends React.Component {
         >
           {this.props.value}
         </button>
+        
       );
     }
   }
@@ -23,6 +26,7 @@ class Square extends React.Component {
             value={this.props.squares[i]}
             onClick={() => this.props.onClick(i)}
             />
+
           );
     }
   
@@ -109,6 +113,14 @@ class Square extends React.Component {
         status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
         }
       return (
+        <>
+        <Menu/>
+        <li>
+          <ul> {' '}</ul>
+        </li>
+        <li>
+          <ul> {' '}</ul>
+        </li>
         <div className="game">
         <div className="game-board">
           <Board
@@ -122,6 +134,7 @@ class Square extends React.Component {
           <ol>{/* TODO */}</ol>
         </div>
       </div>
+      </>
       );
     }
   }
